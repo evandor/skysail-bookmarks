@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-skysail-bookmarks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Quasar App Extension",
   "author": "Carsten Gräf <evandor@gmail.com>",
   "license": "MIT",
@@ -11,8 +11,11 @@
   },
   "bugs": "https://github.com/evandor/skysail-bookmarks/issues",
   "homepage": "https://tabsets.net",
+  "scripts": {
+    "publish:ui": "yarn publish"
+  },
   "dependencies": {
-    "quasar-ui-skysail-bookmarks": "^0.0.2"
+    "quasar-ui-skysail-bookmarks": "^0.0.3"
   },
   "engines": {
     "node": ">= 8.9.0",
