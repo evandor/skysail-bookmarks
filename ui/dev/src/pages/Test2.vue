@@ -1,9 +1,9 @@
 <template>
   <q-page padding>
-    
-    <SkysailBookmarks />
-    
-    
+
+    <TestComponent />
+
+
   </q-page>
 </template>
 
