@@ -46,38 +46,38 @@ const builds = [
       minified: true
     }
   },
-  {
-    rollup: {
-      input: {
-        input: pathResolve('../src/index.common.js')
-      },
-      output: {
-        file: pathResolve('../dist/index.common.js'),
-        format: 'cjs'
-      }
-    },
-    build: {
-      // unminified: true,
-      minified: true
-    }
-  },
-  {
-    rollup: {
-      input: {
-        input: pathResolve('../src/index.umd.js')
-      },
-      output: {
-        name: 'skysailBookmarks',
-        file: pathResolve('../dist/index.umd.js'),
-        format: 'umd'
-      }
-    },
-    build: {
-      unminified: true,
-      minified: true,
-      minExt: true
-    }
-  }
+  // {
+  //   rollup: {
+  //     input: {
+  //       input: pathResolve('../src/index.common.js')
+  //     },
+  //     output: {
+  //       file: pathResolve('../dist/index.common.js'),
+  //       format: 'cjs'
+  //     }
+  //   },
+  //   build: {
+  //     // unminified: true,
+  //     minified: true
+  //   }
+  // },
+  // {
+  //   rollup: {
+  //     input: {
+  //       input: pathResolve('../src/index.umd.js')
+  //     },
+  //     output: {
+  //       name: 'skysailBookmarks',
+  //       file: pathResolve('../dist/index.umd.js'),
+  //       format: 'umd'
+  //     }
+  //   },
+  //   build: {
+  //     unminified: true,
+  //     minified: true,
+  //     minExt: true
+  //   }
+  // }
 ]
 
 // Add your asset folders here, if needed
